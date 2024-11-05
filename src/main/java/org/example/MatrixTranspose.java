@@ -16,10 +16,9 @@ public class MatrixTranspose {
      */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        float[][] matrix = null;
 
         try {
-            matrix = inputMatrix(in);
+            float[][] matrix = inputMatrix(in);
 
             // Виведення вхідної матриці
             System.out.println("Вхідна матриця має наступний вигляд:");
